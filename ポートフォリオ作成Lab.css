@@ -1,0 +1,325 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* フォントの設定 */
+}
+
+/* ナビゲーションバー */
+
+#home {
+    background-color:  #7600bc; /* 背景色の設定 */
+    color: hsl(72, 89%, 83%); /* 文字色の設定 */
+    padding-bottom: 1cm; /* 下のパディング */
+    margin-left:-1cm; /* 左のマージン */
+    margin-right:-1cm; /* 右のマージン */
+    margin-top:-1cm; /* 上のマージン */
+    padding-top: 2cm; /* 上のパディング */
+    padding-bottom: 2cm; /* 下のパディング */
+    height: 5mm; /* 高さの設定 */
+}
+
+.topmenu {
+    color: lightgray; /* 文字色の設定 */
+    margin: 10px; /* マージンの設定 */
+    padding: 20px; /* パディングの設定 */
+    font-size: 20px; /* フォントサイズの設定 */
+    text-decoration:none; /* 下線なし */
+}
+
+.topmenu:hover {
+    color: white; /* ホバー時の文字色 */
+    font-weight:bolder; /* ホバー時のフォントの太さ */
+    text-decoration: underline; /* ホバー時の下線 */
+    /* スタイルの追加 */
+}
+
+.topdiv {
+    float: right; /* 右に浮かせる */
+    padding-right: 1cm; /* 右のパディング */
+}
+
+.profile_name {
+    float: left; /* 左に浮かせる */
+    padding-left: 2cm; /* 左のパディング */
+    /* スタイルの追加 */
+}
+
+.profile_name .contact_info {
+    font-size: 15px; /* フォントサイズの設定 */
+    font-style: italic; /* イタリック体 */
+    display: flex; /* フレックスボックスの表示 */
+    align-items: center; /* 中央に揃える */
+    flex-direction: row; /* 行方向に配置 */
+}
+
+.contact_info img {
+    width:25px; /* 画像の幅 */
+    margin-right: 10px; /* 右のマージン */
+    float:left; /* 左に浮かせる */
+}
+
+/* タイトル */
+
+h2 {
+    text-align: justify; /* 両端揃え */
+    font-size: 50px; /* フォントサイズの設定 */
+    text-align: center; /* 中央揃え */
+    float: left; /* 左に浮かせる */
+    color: #7600bc; /* 文字色の設定 */
+    margin: 30px; /* マージンの設定 */
+    margin-left: 60px; /* 左のマージン */
+    margin-top: 40px; /* 上のマージン */
+    margin-bottom: 0px; /* 下のマージン */
+}
+
+.introduction {
+    text-align: justify; /* 両端揃え */
+    font-size: 30px; /* フォントサイズの設定 */
+    text-align: center; /* 中央揃え */
+    float: left; /* 左に浮かせる */
+    margin-top: 30px; /* 上のマージン */
+    margin-bottom: 20px; /* 下のマージン */
+    animation-duration: 5s; /* アニメーションの持続時間 */
+    position: relative; /* 相対位置 */
+}
+
+/* 自己紹介セクションで使用 */
+
+.container {
+    display: flex; /* フレックスボックスの表示 */
+}
+
+/* 自己紹介 */
+
+.about-me {
+    display: flex; /* フレックスボックスの表示 */
+    align-items: center; /* 中央に揃える */
+}
+
+#about-me h1 {
+    font-size: 65px; /* フォントサイズの設定 */
+    margin-top: 90px; /* 上のマージン */
+    color: #7600bc; /* 文字色の設定 */
+}
+
+#about-me p {
+    font-size: 25px; /* フォントサイズの設定 */
+    color: rgb(128, 128, 128); /* 文字色の設定 */
+    margin-top: -1cm; /* 上のマージン */
+}
+
+.profile_image {
+    width: 550px; /* 幅の設定 */
+    height: fit-content; /* 内容に合わせた高さ */
+    vertical-align: middle; /* 中央揃え */
+    margin: 5px; /* マージンの設定 */
+}
+
+/* スキル */
+
+.all_skills {
+    display: flex; /* フレックスボックスの表示 */
+    flex-direction: row; /* 行方向に配置 */
+    flex-flow: wrap; /* ラップして配置 */
+}
+
+.skill {
+    border: 1px solid gray; /* 境界線の設定 */
+    display: block; /* ブロック表示 */
+    border-radius: 6px; /* 角の丸み */
+    text-align: center; /* 中央揃え */
+    margin: 50px; /* マージンの設定 */
+    padding: 10px; /* パディングの設定 */
+    width: 2in; /* 幅の設定 */
+    font-size: 20px; /* フォントサイズの設定 */
+    box-shadow: 0 3px 10px gray; /* 影の設定 */
+}
+
+.skill img {
+    height: 35px; /* 画像の高さ */
+    align-items: center; /* 中央に揃える */
+}
+
+.skills h6 {
+    align-items: center; /* 中央に揃える */
+    font-size: 20px; /* フォントサイズの設定 */
+    margin-block-start: 8px; /* 上のマージン */
+    margin-block-end: 5px; /* 下のマージン */
+} 
+
+.skills p {
+    align-items: center; /* 中央に揃える */
+    font-size: 15px; /* フォントサイズの設定 */
+    color: gray; /* 文字色の設定 */
+    margin-block-start: 5px; /* 上のマージン */
+    margin-block-end: 5px; /* 下のマージン */
+} 
+
+.flex_center {
+    display: flex; /* フレックスボックスの表示 */
+    align-items: center; /* 中央に揃える */
+    justify-content: center; /* 中央揃え */
+}
+
+/* プロジェクト */
+
+.projects-container {
+    margin-top: 30px; /* 上のマージン */
+    margin-left: 60px; /* 左のマージン */
+}
+
+.projects-container hr {
+    border: 1px solid lightgray; /* 境界線の設定 */
+    width: 75%; /* 幅の設定 */
+    margin-left: 5cm; /* 左のマージン */
+}
+
+.project-card {
+    margin: 0 15px 15px 30px; /* マージンの設定 */
+    padding-bottom: 5px; /* 下のパディング */
+}
+
+.project-card h3 {
+    font-size: 25px; /* フォントサイズの設定 */
+    margin-left: 30px; /* 左のマージン */
+}
+
+.project-card li {
+    font-size: 20px; /* フォントサイズの設定 */
+    margin-left: 30px; /* 左のマージン */
+}
+
+/* おすすめ */
+
+.all_recommendations {
+    display: flex; /* フレックスボックスの表示 */
+    align-items: center; /* 中央に揃える */
+    margin-left: 1in; /* 左のマージン */
+    flex-direction: row; /* 行方向に配置 */
+    flex-flow: wrap; /* ラップして配置 */
+    padding: 20px; /* パディングの設定 */
+}
+
+.recommendation {
+    font-style: italic; /* イタリック体 */
+    text-align: left; /* 左揃え */
+    width: 21.875rem; /* 幅の設定 */
+    padding: 1rem; /* パディングの設定 */
+    background-color: #fff; /* 背景色の設定 */
+    border-radius: 11px; /* 角の丸み */
+    box-shadow: 0 3px 10px var(--primary-shadow); /* 影の設定 */
+    padding: 20px; /* パディングの設定 */
+    margin: 10px; /* マージンの設定 */
+    border:1px solid gray; /* 境界線の設定 */
+    font-size: 18px; /* フォントサイズの設定 */
+    height:150px; /* 高さの設定 */
+}
+
+.recommendation span {
+    color: #7600bc; /* 文字色の設定 */
+    font-size: 20px; /* フォントサイズの設定 */
+    font-family: 'Times New Roman', Times, serif; /* フォントファミリーの設定 */
+}
+
+/* トップに戻るボタン */
+
+.iconbutton {
+    width: 48px; /* ボタンの幅 */
+    height: 48px; /* ボタンの高さ */
+    border-radius: 100%; /* 丸い形 */
+    background-color: #7600bc; /* 背景色の設定 */
+    color: #fff; /* 文字色の設定 */
+    display: flex; /* フレックスボックスの表示 */
+    align-items: center; /* 中央に揃える */
+    justify-content: center; /* 中央揃え */
+    position: fixed; /* 固定位置 */
+    right: 3%; /* 右の位置 */
+    bottom: 3%; /* 下の位置 */
+    cursor: pointer; /* カーソルをポインタに変更 */
+}
+
+/* フォームポップアップ */
+
+.popup {
+    width: 400px; /* 幅の設定 */
+    background-color: #e8bcf0; /* 背景色の設定 */
+    border-radius: 3mm; /* 角の丸み */
+    top: 50%; /* 上の位置 */
+    left: 50%; /* 左の位置 */
+    transform: translate(-50%, -50%); /* 中央揃え */
+    text-align: center; /* 中央揃え */
+    position: fixed; /* 固定位置 */
+    /* padding: 30px; */
+    visibility: hidden; /* 非表示 */
+}
+
+.popup img {
+    padding-top: 20px; /* 上のパディング */
+}
+
+.popup button {
+    background-color: #fff; /* 背景色の設定 */
+    border: 1px solid #7600bc; /* 境界線の設定 */
+    color: #7600bc; /* 文字色の設定 */
+    display: block; /* ブロック表示 */
+    border-radius: 6px; /* 角の丸み */
+    text-align: center; /* 中央揃え */
+    margin: 50px; /* マージンの設定 */
+    padding: 10px; /* パディングの設定 */
+    width: 2in; /* 幅の設定 */
+    font-size: 20px; /* フォントサイズの設定 */
+    margin-left: 25%; /* 左のマージン追加 */
+}
+
+.popup button:hover {
+    background-color: #fff; /* ホバー時の背景色 */
+    border: 2px solid #7600bc; /* ホバー時の境界線 */
+    color: #7600bc; /* ホバー時の文字色 */
+    display: block; /* ブロック表示 */
+    font-weight: bolder; /* ホバー時のフォントの太さ */
+    text-align: center; /* 中央揃え */
+    cursor: pointer; /* カーソルをポインタに変更 */
+    margin-left: 25%; /* 左のマージン追加 */
+}
+
+/* おすすめフォーム */
+
+input, textarea {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* フォントの設定 */
+    margin: 10px; /* マージンの設定 */
+    width: 100%; /* 幅の設定 */
+}
+
+fieldset {
+    display: flexbox; /* フレックスボックスの表示 */
+    align-content: center; /* 中央に揃える */
+    justify-content: center; /* 中央揃え */
+    padding: 25px; /* パディングの設定 */
+    margin-left: 50px; /* 左のマージン */
+    margin-right: 50px; /* 右のマージン */
+    border: thin solid white; /* 薄い白い境界線 */
+    width: 50%; /* 幅の設定 */
+}
+
+/* ボタン */
+
+button {
+    background-color: #fff; /* 背景色の設定 */
+    border: 1px solid #7600bc; /* 境界線の設定 */
+    color: #7600bc; /* 文字色の設定 */
+    display: block; /* ブロック表示 */
+    border-radius: 6px; /* 角の丸み */
+    text-align: center; /* 中央揃え */
+    margin: 50px; /* マージンの設定 */
+    padding: 10px; /* パディングの設定 */
+    width: 2in; /* 幅の設定 */
+    font-size: 20px; /* フォントサイズの設定 */
+}
+
+button:hover {
+    background-color: #7600bc; /* ホバー時の背景色 */
+    border: 1px solid #7600bc; /* ホバー時の境界線 */
+    color: #fff; /* ホバー時の文字色 */
+    display: block; /* ブロック表示 */
+    border-radius: 6px; /* 角の丸み */
+    text-align: center; /* 中央揃え */
+    cursor: pointer; /* カーソルをポインタに変更 */
+}
